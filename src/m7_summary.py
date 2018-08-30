@@ -2,13 +2,28 @@
 An exercise that summarizes what you have learned in this Session.
 
 Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and Gerardo Santana.
 """
 ########################################################################
-# TODO: 1.
+# done: 1.
 #   On Line 5 above, replace  PUT_YOUR_NAME_HERE  with your own name.
 ########################################################################
+import rosegraphics as rg
 
+window = rg.TurtleWindow()
+
+blue_turtle = rg.SimpleTurtle('turtle')
+blue_turtle.pen = rg.Pen('blue', 3)
+blue_turtle.left(90)
+blue_turtle.forward(200)
+blue_turtle.pen_up()
+blue_turtle.go_to(rg.Point(100,-40))
+blue_turtle.pen_down()
+blue_turtle.pen = rg.Pen('green', 10)
+blue_turtle.right(180)
+blue_turtle.forward(150)
+
+window.close_on_mouse_click()
 ########################################################################
 # TODO: 2.
 #   Write code that accomplishes the following:
@@ -22,7 +37,6 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
 #          (so that the next movements will return to leaving a "trail")
 #     - Makes the SimpleTurtle's pen have color "green" and thickness 10.
 #     - Tells the SimpleTurtle to go 150 pixels straight DOWN.
-#
 # Don't forget to:
 #     - import rosegraphics and construct a TurtleWindow
 #          at the BEGINNING of your code, and to
