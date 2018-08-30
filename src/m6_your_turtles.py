@@ -48,11 +48,11 @@ size = 200
 
 
 
-for k in range(12):
+for k in range(25):
     red_turtle.draw_square(size)
     red_turtle.pen_up()
     red_turtle.right(45)
-    red_turtle.forward(10)
+    red_turtle.forward(17)
     red_turtle.left(45)
     red_turtle.pen_down()
     size = size - 7
