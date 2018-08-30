@@ -122,6 +122,13 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
+boris.left(90)
+boris.forward(100)
+boris.left(90)
+boris.forward(200)
+boris.pen = rg.Pen('blue', 20)
+boris.forward(50)
+
 
 ###############################################################################
 #
@@ -149,7 +156,10 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
-
+austin = rg.SimpleTurtle()
+austin.pen = rg.Pen('green', 15)
+austin.right(45)
+austin.forward(300)
 ###############################################################################
 #
 # TODO: 6.
