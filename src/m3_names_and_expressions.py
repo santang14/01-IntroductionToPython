@@ -31,7 +31,6 @@ print(answer * 100)
 import math
 value1 = 77+math.cos(2.75)
 print(math.sqrt(value1))
-
 ###############################################################################
 # done: 3.
 #   Immediately below this _TODO_, write code that computes and prints:
@@ -42,7 +41,6 @@ print(math.sqrt(value1))
 value2 = 41*88
 value3 = 4*math.cos(2)
 print(math.sqrt(value2 + value3))
-
 
 ###############################################################################
 # done: 4.
